@@ -3,9 +3,6 @@ export default function Navbar() {
   return (
     <>
       <nav className="nav">
-        <Link to="/" className="site-title">
-          Multi App
-        </Link>
         <ul>
           <CustomLink to="/timer">Timer</CustomLink>
           <CustomLink to="/todo">Todo List</CustomLink>
